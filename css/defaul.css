@@ -76,20 +76,22 @@ header nav a:hover {
 }
 
 .carousel-item {
-    background-color: darksalmon;
-    height: 400px;
+    background-color: #9e7989;
+    height: 500px;
     position: relative;
 
 
 }
 
 .carousel-item .carousel-item-text {
+    font-family: 'Arvo', serif;
     text-align: center;
     color: #eee;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    letter-spacing: 5px;
 }
 
 .carousel-indicators [data-bs-target]{
@@ -101,8 +103,9 @@ header nav a:hover {
 .fontd{
     font-family: 'Great Vibes', cursive, sans-serif;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     color: #fba700;
+    font-size: 29pt;
 
     
 }
@@ -112,7 +115,7 @@ header nav a:hover {
     font-family: 'Arvo', serif;
     letter-spacing: 5px;
     line-height: 63px;
-    
+    font-size: 33pt;
     
     
 }
@@ -128,9 +131,6 @@ header nav a:hover {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    max-width: 500px;
-    
-    
     
     
 }
@@ -156,5 +156,13 @@ header nav a:hover {
 .textofoto{
     padding-left: 50px;
     padding-right: 50px;
+}
+span{
+    color: #FBA700;
+    font-size: 30pt;
+    font-family: 'Arvo', serif;
+}
+hr{
+    border-top:2px solid #fba700;
 }
 
