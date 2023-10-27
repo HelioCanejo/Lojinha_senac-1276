@@ -115,7 +115,7 @@ header nav a:hover {
     font-family: 'Arvo', serif;
     letter-spacing: 5px;
     line-height: 63px;
-    font-size: 33pt;
+    font-size: 30pt;
     
     
 }
@@ -164,5 +164,24 @@ span{
 }
 hr{
     border-top:2px solid #fba700;
+}
+@media (max-width:990px){
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column;
+        
+    }
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-toggler-icon{
+        background-image: url(/img/icons/ellipsis-vertical-solid.svg );
+        background-size: contain;
+    }
+    
+
 }
 
