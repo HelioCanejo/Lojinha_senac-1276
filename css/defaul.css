@@ -165,9 +165,63 @@ span{
 hr{
     border-top:2px solid #fba700;
 }
-@media (max-width:990px){
+
+
+
+.form-contact input[type='text'],
+.form-contact input[type='tel'],
+.form-contact input[type='email'],
+.form-contact textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #eeee;
+    border: solid 1px #CEB989;
+    border-radius: 5px;
+
+}
+button{
+    padding: 5px 10px;
+    border: solid 2px #FBA700;
+    background-color: #eeee;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+@media (max-width:960px){
     .logo{
         display: none;
+        
     }
     .flex-nav{
         flex-direction: column;
@@ -178,8 +232,9 @@ hr{
         justify-content: center;
     }
     .navbar-toggler-icon{
-        background-image: url(/img/icons/ellipsis-vertical-solid.svg );
+        background-image: url(/img/icons/bars-solid.svg );
         background-size: contain;
+        width: 24px;
     }
     
 
